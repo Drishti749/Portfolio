@@ -86,7 +86,7 @@ p {
 
 .links {
     float: left;
-   color: blueviolet;
+    color: blueviolet;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 9px;
@@ -96,5 +96,5 @@ p {
 }
 
 .links:hover {
-    background-color: dodgerblue; 
+    background-color: dodgerblue;
 }
