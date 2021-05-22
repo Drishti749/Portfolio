@@ -3,7 +3,7 @@ body {
     background-color: background: rgb(47, 144, 191);
     background: linear-gradient(90deg, rgba(47, 144, 191, 1) 18%, rgba(31, 215, 252, 1) 37%, rgba(205, 224, 236, 1) 52%, rgba(242, 186, 186, 1) 74%, rgba(209, 130, 130, 1) 95%);
     margin: 0;
-   
+
 }
 
 h1 {
@@ -96,7 +96,7 @@ p {
 .menu {
     list-style: none;
     font-family: inherit;
-    
+
     top: 0 px;
     right: 30 px;
     z-index: 10;
@@ -164,4 +164,24 @@ a {
 
 html {
     scroll-behavior: smooth;
+}
+body {
+    text-align: center;
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+img {
+    width: 350px;
+    height: 350px;
+    border: solid;
+    border-color: blanchedalmond;
+}
+
+img {
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9);
 }
